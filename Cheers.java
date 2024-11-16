@@ -1,9 +1,9 @@
 // Prints a crowd cheering output.
 public class Cheers {
         public static void main(String[] args) {
-	    String Name = args[0];
+	    String Name = args[0].toUpperCase();
             int Times = Integer.parseInt(args[1]);
-            String whenAN = "aefhilmnorsxAEFHILMNORSX";
+            String whenAN = "AEFHILMNORSX";
             int i=0;
             while (i < Name.length()) {
                     if (whenAN.indexOf(Name.charAt(i))!=-1){
@@ -19,7 +19,7 @@ public class Cheers {
         
             System.out.println("What does that spell?");
             for (int k = 0; k < Times; k++) {
-                System.out.println(Name+ "! ! !");
+                System.out.println(Name+ "!!!");
             }
         
 
