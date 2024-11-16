@@ -12,7 +12,9 @@ public class TimeCalc {
             if(newminites<10){
                 System.out.println("0"+newhours+":"+"0"+newminites);
             }
+            else{
             System.out.println("0"+newhours+":"+newminites);
+            }
         }
         else if (newminites<10) {
             System.out.println(newhours+":"+"0"+newminites);            
