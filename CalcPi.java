@@ -6,7 +6,7 @@ public class CalcPi {
 	double j=3.0 ;
 	System.out.println("pi according to Java: "+ Math.PI);
 	if (numterms==0) {
-		System.out.println("pi, approximated: "+ 0);
+		System.out.println("pi, approximated:     "+ 0);
 	}
 	else{
 	for (int i = 1; i < numterms; i++) {
@@ -18,7 +18,7 @@ public class CalcPi {
 		}
 		j+=2;
 	}	
-	System.out.println("pi, approximated: "+sum*4);
+	System.out.println("pi, approximated:     "+sum*4);
 	}
 	}
 }
