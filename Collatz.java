@@ -13,7 +13,7 @@ public class Collatz {
 			if (seed==1){
 				Last= Last*3+1;
 				if(Mode.equals("v")==true){
-				System.out.print(", "+Last);
+				System.out.print(" "+Last);
 				}
 				count++;
 			}
@@ -21,14 +21,14 @@ public class Collatz {
 				if(Last%2==0){
 					Last /= 2;
 					if(Mode.equals("v")==true){
-					System.out.print(", "+Last);
+					System.out.print(" "+Last);
 					}
 					count++;
 				}
 				else{
 					Last= Last*3+1;
 					if(Mode.equals("v")==true){
-					System.out.print(", "+Last);
+					System.out.print(" "+Last);
 					}
 					count++;
 				}
